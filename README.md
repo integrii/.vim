@@ -6,7 +6,7 @@
 - Pathogen (package manager)
 - vim-go (golang enhancements)
 - vim-sensible (very passive boilerplate improvements)
-- vim-airline (no-python required powerline status bar)
+- vim-lightline (lighter variant of vim-airline)
 - vim-fugitive (git status in the status bar)
 - monokai (color theme)
 
