@@ -7,3 +7,7 @@ if [[ -f ~/.vimrc ]]; then
 	rm -f ~/.vimrc
 fi
 ln -s ~/.vim/.vimrc ~/.vimrc
+
+
+# install commands required for vim-go
+vim -c 'GoInstallBinaries'
