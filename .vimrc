@@ -32,10 +32,14 @@ autocmd FileType *
   \   call SuperTabSetDefaultCompletionType("<c-x><c-u>") |
   \ endif
 
+" change menu colors
 highlight Pmenu guibg=white gui=bold
 highlight Pmenu ctermbg=lightblue gui=bold
 
 
-
-
-
+" golang hilight options
+let g:go_highlight_operators = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_build_constraints = 1
