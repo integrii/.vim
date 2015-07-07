@@ -7,6 +7,7 @@
 - vim-go (golang enhancements)
 - vim-sensible (very passive boilerplate improvements)
 - vim-airline (no-python required powerline status bar)
+- vim-fugitive (git status in the status bar)
 - monokai (color theme)
 
 
