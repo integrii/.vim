@@ -13,5 +13,9 @@
 
 
 ## Installation
-An installer is included for easy deployment.  Just run the following to clone the repo AND setup the .vimrc.  This will place your existing .vimrc file and .vim directory at .vimrc.old and .vim.old respectively.
+An installer is included for easy deployment.  Just run the following.  Your existing ~.vim file will be placed at ~/.vim.old.  You must have get installed.
 
+```bash
+curl -L 'https://raw.githubusercontent.com/integrii/.vim/master/install.sh' |
+bash
+```
