@@ -11,8 +11,8 @@ if [[ -d ~/.vim ]]; then
 	cp -r ~/.vim ~/.vim.old
 	rm -rf ~/.vim
 	echo "Moved ~/.vim to ~/.vim.old"
-	git clone git@github.com:integrii/.vim.git ~/.vim
 fi
+git clone git@github.com:integrii/.vim.git ~/.vim
 
 
 # install .vimrc symlink
