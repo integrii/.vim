@@ -2,11 +2,16 @@
 
 ## A simple but useful vim setup that has few conflicts, overrides, or complicated configs.  
 
+
+![](https://raw.githubusercontent.com/integrii/.vim/master/screenshot.png)
+
+
+
 ## Componets
 - Pathogen (package manager)
 - vim-go (golang enhancements)
 - vim-sensible (very passive boilerplate improvements)
-- vim-lightline (lighter variant of vim-airline)
+- vim-lightline (lighter variant of vim-airline - pretty status bar)
 - vim-fugitive (git status in the status bar)
 - supertab (easy tab completion)
 - monokai (color theme)
