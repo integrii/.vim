@@ -16,6 +16,5 @@
 An installer is included for easy deployment.  Just run the following.  Your existing ~.vim file will be placed at ~/.vim.old.  You must have get installed.
 
 ```bash
-curl -L 'https://raw.githubusercontent.com/integrii/.vim/master/install.sh' |
-bash
+curl -L 'https://raw.githubusercontent.com/integrii/.vim/master/install.sh' | bash
 ```
