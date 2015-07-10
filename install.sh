@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# ensure git installed
+if [[ ! -f `which git` ]]; then
+	echo "You must have git installed."
+	exit 1
+fi
+
 # get rid of existing .vimrc and .vim/
 if [[ -d ~/.vim ]]; then
 	cp -r ~/.vim ~/.vim.old
