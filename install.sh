@@ -22,10 +22,3 @@ if [[ -f ~/.vimrc ]]; then
 fi
 ln -s ~/.vim/.vimrc ~/.vimrc
 
-
-# install commands required for vim-go
-if [[ -f `which go` ]]; then
-	vim -c 'GoInstallBinaries'
-else
-	echo "Skipped golang setup because go was not installed.  To install later, run: vim -c 'GoInstallBinaries'"
-fi
