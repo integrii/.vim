@@ -1,4 +1,4 @@
-### integrii/vim
+### integrii/.vim
 
 This is my `.vim` folder.  It is a simple but useful vim configuration with no major package dependences.  Just run the `install.sh` script on any Mac or Linux host to get colors, tab completion, git awareness, and golang support with a beautiful status bar.
 
