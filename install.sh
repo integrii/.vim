@@ -12,7 +12,7 @@ if [[ -d ~/.vim ]]; then
 	rm -rf ~/.vim
 	echo "Moved ~/.vim to ~/.vim.old"
 fi
-git clone --recursive git@github.com:integrii/.vim.git ~/.vim
+git clone git@github.com:integrii/.vim.git ~/.vim
 
 
 # install .vimrc symlink
@@ -23,3 +23,11 @@ if [[ -f ~/.vimrc ]]; then
 fi
 ln -s ~/.vim/.vimrc ~/.vimrc
 
+
+# Clone extra repositories into place
+git clone git@github.com:tpope/vim-pathogen.git ~/.vim/bundle/vim-pahtogen
+git clone git@github.com:fatih/vim-go.git ~/.vim/bundle/vim-go
+git clone git@github.com:tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
+git clone git@github.com:itchyny/lightline.vim.git ~/.vim/bundle/lightline.vim
+git clone git@github.com:tpope/vim-fugitive.git ~/.vim/bundle/vim-fugitive
+git clone git@github.com:ervandew/supertab.git ~/.vim/bundle/supertab
