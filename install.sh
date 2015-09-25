@@ -12,7 +12,7 @@ if [[ -d ~/.vim ]]; then
 	rm -rf ~/.vim
 	echo "Moved ~/.vim to ~/.vim.old"
 fi
-git clone git@github.com:integrii/.vim.git ~/.vim
+git clone --recursive git@github.com:integrii/.vim.git ~/.vim
 
 
 # install .vimrc symlink
