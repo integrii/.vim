@@ -1,6 +1,6 @@
 ### integrii/.vim
 
-This is my `.vim` folder.  It is a simple but useful vim configuration with no major package dependences.  Just run the `install.sh` script on any Mac or Linux host to get colors, tab completion, git awareness, and golang support with a beautiful status bar.
+This is my `.vim` folder.  It is a simple but useful vim configuration with no major package dependences.  Just run the curl command below on any Mac or Linux host to get colors, tab completion, git awareness, and golang support with a beautiful status bar.
 
 
 ![](https://raw.githubusercontent.com/integrii/.vim/master/screenshot.png)
@@ -19,10 +19,10 @@ This is my `.vim` folder.  It is a simple but useful vim configuration with no m
 
 
 ## Installation
-An installer is included for easy deployment.  Just run the following.  Your existing `~.vim` file will be placed at `~/.vim.old`.  You must have get installed.
+An installer is included for easy deployment.  Just run the following.  Your existing `~.vim` file will be placed at `~/.vim.old`.  You must have git installed.
 
 ```bash
-curl -L 'https://raw.githubusercontent.com/integrii/.vim/master/install.sh' | bash
+curl -L 'https://raw.githubusercontent.com/integrii/.vim/master/.github-installer.sh' | bash
 ```
 
 ## Extending
