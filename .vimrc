@@ -16,7 +16,7 @@ set completeopt-=preview
 " hilight the cursor's current line
 set cursorline
 " this is how many columns until we wrap comments
-set textwidth=80
+set textwidth=0
 " dont automatically continue comments when we go to the next line
 set fo=cqt
 " forget compatibility with vi
@@ -25,6 +25,8 @@ set nocompatible
 set showmatch
 " case insensitive search
 set ignorecase
+" touchpad scrolling works in vim
+set mouse=a
 " make tab complete use the right stuff
 autocmd FileType *
   \ if &omnifunc != '' |
