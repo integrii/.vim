@@ -25,9 +25,10 @@ ln -s ~/.vim/.vimrc ~/.vimrc
 
 
 # Clone extra repositories into place
-git clone git@github.com:tpope/vim-pathogen.git ~/.vim/bundle/vim-pahtogen
-git clone git@github.com:fatih/vim-go.git ~/.vim/bundle/vim-go
-git clone git@github.com:tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
-git clone git@github.com:itchyny/lightline.vim.git ~/.vim/bundle/lightline.vim
-git clone git@github.com:tpope/vim-fugitive.git ~/.vim/bundle/vim-fugitive
-git clone git@github.com:ervandew/supertab.git ~/.vim/bundle/supertab
+#https://github.com/tpope/vim-pathogen.git
+git clone https://github.com/tpope/vim-pathogen.git ~/.vim/bundle/vim-pahtogen
+git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
+git clone https://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
+git clone https://github.com/itchyny/lightline.vim.git ~/.vim/bundle/lightline.vim
+git clone https://github.com/tpope/vim-fugitive.git ~/.vim/bundle/vim-fugitive
+git clone https://github.com/ervandew/supertab.git ~/.vim/bundle/supertab
