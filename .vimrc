@@ -2,6 +2,9 @@ execute pathogen#infect()
 " syntax hilighting
 syntax on
 
+" powerline fonts
+let g:airline_powerline_fonts = 1
+
 filetype plugin indent on
 " ensure some spaces are always displayed at the bottom 
 set scrolloff=2
