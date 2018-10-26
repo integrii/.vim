@@ -28,8 +28,8 @@ set nocompatible
 set showmatch
 " case insensitive search
 set ignorecase
-" touchpad scrolling works in vim
-set mouse=a
+" touchpad scrolling works in vim, but breaks copy/paste
+"set mouse=a
 " make tab complete use the right stuff
 autocmd FileType *
   \ if &omnifunc != '' |
